@@ -1,11 +1,9 @@
 import { useState } from "react";
 import "./navbar.scss";
-import { Link } from "react-router-dom";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
 
-  const user = true;
   return (
     <nav>
       <div className="left">
